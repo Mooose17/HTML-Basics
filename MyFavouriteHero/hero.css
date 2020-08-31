@@ -68,3 +68,17 @@ footer p{
 p.caption{
     margin-top: 0px;
 }
+
+div.acadamy{
+    text-align: center;
+    margin: 0;
+}
+div.acadamy:hover{
+    background-color: transparent;
+    opacity: 0.5;
+}
+div.acadamy p{
+    font-family: 'Megrim', cursive;
+    font-size: 70px;
+
+}
