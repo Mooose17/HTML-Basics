@@ -25,6 +25,9 @@ h1, h2{
     font-family: 'Megrim', cursive;
 }
 
+h1 p{
+    text-align: center;
+}
 
 main{
     background-color: #7dba84;
