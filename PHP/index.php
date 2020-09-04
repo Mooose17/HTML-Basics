@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index.php</title>
+    <title>php skill share</title>
 </head>
 <body>
-
+    
 <?php
-echo "My name is";
+echo 'hello my name is';
 $name = "Tommy";
-Echo "<h1>$name</h1>";
+echo "<h1>$name<h1>";
 ?>
+
 
 </body>
 </html>
-
