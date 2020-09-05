@@ -15,6 +15,4 @@ echo hr;
 echo "Hello my name is " . $name; echo " " . lastname;
 echo hr;
 echo "Hello my name is " . $name . " Bowden";
-
-
 ?>
