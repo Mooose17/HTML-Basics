@@ -8,9 +8,7 @@
 <body>
     
 <?php
-echo 'hello my name is';
-$name = "Tommy";
-echo "<h1>$name<h1>";
+echo "Welcome to PHP learning please input the name of the file you want to use in the url after phpskillshare";
 ?>
 
 
