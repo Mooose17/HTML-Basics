@@ -24,7 +24,6 @@ Arrays are a list of values
 
    var_dump($names);
     echo "<hr />";
-    
     ?>
 <hr />
 
