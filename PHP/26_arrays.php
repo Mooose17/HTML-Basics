@@ -2,23 +2,22 @@
 Arrays are a list of values
 <hr />
 <?php
-
     $array = ['abc', '123'];
     //var_dump($array);
 
-    $array = array('abc', '123');
+    $array = ['abc', '123'];
     //var_dump($array);
 
 ?>
 
 <?php
     //simple basic array
-    $names = array(
+    $names = [
         'Tommy',
         'Becky',
         'Adam',
-        'Cesca',
-    );
+        'Cesca'
+    ];
 
     echo $names[0];
 
@@ -29,43 +28,49 @@ Arrays are a list of values
 
 <?php
 
-$pets = array(
+$pets = [
     'Dog'=> 6,
     'Cat'=> 2,
     'Horse'=> 1,
-    'Penguin'=> 57,
-);
+    'Penguin'=> 57
+];
 
 var_dump ($pets);
-
-
 ?>
+
+
 <?php
-/*
 //multidimensional arrays
 //arrays inside arrays
-$names = array(
-    'Tommy'=> array(
+$names = [
+    'Tommy' => [
         'age' => 20,
         'height' => 1.82, //cm
         'job' => 'Student',
-        'friends' => 213), 
-        
-    'Becky'=> array(,
+        'friends' => 213
+    ],
+    'Becky' => [
         'age' => 20,
         'height' => 1.27, //cm
         'job' => 'Student',
         'friends' => 324
-    ),
-    'Adam'=> array(
-            'age' => 19,
-            'height' => 1.54, //cm
-            'job' => 'Student',
-            'friends' => 435
-    ),
-    'Cesca'=> array(,
+    ],
+    'Adam'=> [
+        'age' => 19,
+        'height' => 1.54, //cm
+        'job' => 'Student',
+        'friends' => 435
+    ],
+    'Cesca'=> [
         'age' => 19,
         'height' => 2.01, //cm
         'job' => 'Student',
-        'friends' => 235),
-        */?>
+        'friends' => 235
+    ]
+];
+
+var_dump($names);
+
+// cursor parking area: [   /   ]
+        
+        ?>
