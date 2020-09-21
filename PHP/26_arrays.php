@@ -12,6 +12,7 @@ Arrays are a list of values
 
 <?php
     //simple basic array
+    /*
     $names = [
         'Tommy',
         'Becky',
@@ -23,11 +24,12 @@ Arrays are a list of values
 
    var_dump($names);
     echo "<hr />";
+    */
     ?>
 <hr />
 
 <?php
-
+/*
 $pets = [
     'Dog'=> 6,
     'Cat'=> 2,
@@ -36,41 +38,50 @@ $pets = [
 ];
 
 var_dump ($pets);
+*/
 ?>
 
 
 <?php
 //multidimensional arrays
 //arrays inside arrays
-$names = [
-    'Tommy' => [
+$names = array(
+    "Tommy" => [
         'age' => 20,
         'height' => 1.82, //cm
         'job' => 'Student',
         'friends' => 213
     ],
-    'Becky' => [
+    "Becky" => [
         'age' => 20,
         'height' => 1.27, //cm
         'job' => 'Student',
         'friends' => 324
     ],
-    'Adam'=> [
+    "Adam"=> [
         'age' => 19,
         'height' => 1.54, //cm
         'job' => 'Student',
         'friends' => 435
     ],
-    'Cesca'=> [
+    "Cesca"=> [ // the names of each array is called a key
         'age' => 19,
         'height' => 2.01, //cm
         'job' => 'Student',
         'friends' => 235
     ]
-];
+);
 
+krsort($names);
 var_dump($names);
 
+/*common sorting functions
+rsort($names);
+asort($names);
+ksort($names);
+krsort($names);
+arsort($names);
+*/
 // cursor parking area: [   /   ]
         
         ?>
