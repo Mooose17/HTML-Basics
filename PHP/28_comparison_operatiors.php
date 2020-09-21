@@ -45,3 +45,9 @@ $age = 21;
     }else{
         echo "You are alive?";
     }
+echo "<hr />";
+
+$name = 1;
+if($name!="Tommy"){
+    echo "Welcome back 1!";
+}
