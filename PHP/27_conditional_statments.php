@@ -31,7 +31,7 @@ $age1 = 21;
     }
     echo "<hr />";
 //ElseIf statements
-$age1 = 1;
+$age1 = 17;
     if($age1>=21){
         echo "You can drink in America.";
     }elseif($age1==17){
@@ -45,6 +45,52 @@ $age1 = 1;
     }else{       //opposite of true: FALSE
         echo "You cannot drink in America.";
     }
+?>
+<?php
+//switch statements
+echo "<h2>Switch Statements</h2>"; 
+
+echo "A faster way to write if/elseif/else";
+echo "<hr />";
+
+$color = "red";
+
+switch($color) {
+    case "blue":
+    case "brown":
+    case "yellow":
+        echo "The color is either blue, brown or yellow";
+
+    case "red":
+        echo "This color is supported.";
+    break;
+    default:
+        echo "This color is not supported.";
+    break;
+};
+echo "<hr />";
+
+$gin = "nipples";
+    switch($gin){
+        case "Blood Orange";
+            echo "GIN TIME BITCH.";
+break;
+        case "Palma Violet";
+            echo "MMMM YUMMY PURPLE LIQUID.";
+break;
+        case "Pink";
+            echo "GIRLIE TIME!!!";
+break;
+        case "Dry";
+            echo "OLD MAN JUICE.";
+break;
+        case "Lemon";
+            echo "UNACCEPTABLEEEEEEEE";
+break;
+        default:
+            echo "GET A DRINK";
+break;
+}
 //basic operators
 //>, <, >=, <=, == (5 basic operators)
 ?>
