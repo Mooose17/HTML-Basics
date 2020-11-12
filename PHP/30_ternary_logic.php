@@ -40,8 +40,8 @@ echo "<hr />";
 
          echo $upgrade;
     
-    $upgrade1 = ($phone1 === "Pixel 3a" ? true : false);
-    $upgrade2 = ($phone2 === "Pixel 3a" ? true : false);
+    $upgrade1 = ($phone1 === "Pixel 3a");
+    $upgrade2 = ($phone2 === "Pixel 3a");
          if($upgrade){
              Echo "You are eligible for an upgrade.<br>";
          }else{
