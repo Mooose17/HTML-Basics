@@ -19,9 +19,9 @@ echo "<hr />";
     $daytime = true;
 
         if(!$daytime){
-           echo "Good Morning, have a great day!";
+           echo "Good Night! Sleep tight.";
         }else{
-            echo "Good Night! Sleep tight.";
+            echo "Mornin'";
         }
     
 
