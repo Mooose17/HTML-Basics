@@ -6,11 +6,11 @@
  <hr />
  <?php
  //if statements
-$d_age = 19;
 $name = "Tommy";
     if($name=="Tommy"){
         echo "Welcome Tommy";
 }
+$d_age = 19;
 echo "<br>";
     if($d_age>=18){
         echo "You are above drinking age, have a cold one on me.";
@@ -34,13 +34,13 @@ $age1 = 21;
 $age1 = 17;
     if($age1>=21){
         echo "You can drink in America.";
-    }elseif($age1==17){
+    }elseif($age1===17){
         echo "You are above the age of consent.";
-    }elseif($age1==18){
+    }elseif($age1===18){
         echo "You can drink in the UK.";
-    }elseif($age1==19){
+    }elseif($age1===19){
         echo "You are nineteen years old.";
-    }elseif($age1==20){
+    }elseif($age1===20){
         echo "You are twenty.";
     }else{       //opposite of true: FALSE
         echo "You cannot drink in America.";
@@ -53,43 +53,43 @@ echo "<h2>Switch Statements</h2>";
 echo "A faster way to write if/elseif/else";
 echo "<hr />";
 
-$color = "red";
+$color = "white";
 
 switch($color) {
     case "blue":
     case "brown":
     case "yellow":
         echo "The color is either blue, brown or yellow";
-
+        break;
     case "red":
         echo "This color is supported.";
-    break;
+        break;
     default:
         echo "This color is not supported.";
-    break;
+        break;
 };
 echo "<hr />";
 
-$gin = "nipples";
+$gin = "Blood Orange";
     switch($gin){
-        case "Blood Orange";
+          case "Blood Orange";
             echo "GIN TIME BITCH.";
-break;
+            break;
         case "Palma Violet";
             echo "MMMM YUMMY PURPLE LIQUID.";
-break;
+            break;
         case "Pink";
             echo "GIRLIE TIME!!!";
-break;
+            break;
         case "Dry";
             echo "OLD MAN JUICE.";
-break;
+            break;
         case "Lemon";
             echo "UNACCEPTABLEEEEEEEE";
-break;
+            break;
         default:
             echo "GET A DRINK";
-break;
+            break;
 }
 //basic operators
 //>, <, >=, <=, == (5 basic operators)
