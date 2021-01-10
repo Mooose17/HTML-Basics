@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Tables</title>
+</head>
+<body>
+    <h1>Forms and Tables</h1>
+    <div>        
+    <h3>What are tables?</h3>
+                    <li>A way to move data around</li>
+                    <li>Developers liked to use them in the early days of WEBDES make a bunch of cells and take up dead space inbetween cells.</li>
+                    <li>Tables should be used to display tabular data.</li>
+                    <li>Use Tabels to display data that can be displayed in tabular format.</li>
+                    <li>Quite a few elements can co in a table.</li>
+                </div>
+    <div>               
+        <h2>Heavest Birds table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <td>Animal</td>
+                    <td>Binomial Name</td>
+                    <td>Average Mass kg/lbs</td>
+                    <td>Maximum Mass kg/lbs</td>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Ostrich</td>
+                <td>Struthio camelus</td>
+                <td>104 (230)</td>
+                <td>156.8 (346)</td>
+            </tr>
+            <tr>
+                <td>Somali ostrich</td>
+                <td>Struthio molybdophanes</td>
+                <td>90 (200)</td>
+                <td>130 (287)</td>
+            </tr>
+            <tr>
+                <td>Southern cassowary</td>
+                <td>Casuarius casuarius</td>
+                <td>45 (99)</td>
+                <td>85 (190)</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Colspan Rowspan</h2>
+
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    
+                    <td rowspan=2>Animal</td>
+                    <td rowspan=2>Binomial Name</td>
+                    <td colspan=2>Average Mass</td>
+                </tr>
+                <!-- Rowspan = how many rows you want it to take up ->
+                    colspan how many collums it will take up V -->
+                <tr>
+                    <td>KG</td>
+                    <td>Lbs</td>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Ostrich</td>
+                <td>Struthio camelus</td>
+                <td>104</td>
+                <td>230</td>
+            </tr>
+            <tr>
+                <td>Somali ostrich</td>
+                <td>Struthio molybdophanes</td>
+                <td>90</td>
+                <td>200</td>
+            </tr>
+            <tr>
+                <td>Southern cassowary</td>
+                <td>Casuarius casuarius</td>
+                <td>45</td>
+                <td>99</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
