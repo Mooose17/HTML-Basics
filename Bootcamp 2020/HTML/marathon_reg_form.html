@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registration</title>
+</head>
+<body>
+    <h1>Marathon Registration Form</h1>
+
+    <form action="/marathon_servers">
+        <div class="f_name">
+            <label for="f_name">First Name:</label>
+                <input type="text" name="f_name" id="f_name" placeholder="John" required>
+        </div>
+        <div class="l_name">
+            <label for="l_name">Last Name:</label>
+                <input type="text" name="l_name" id="l_name" placeholder="Smith" required>
+        </div>
+        <div class="race_1_">
+            <label for="race_1">5KM Fun Run</label>
+                <input type="radio" name="race" id="race_1">
+        </div>
+        <div class="race_2_">
+            <label for="race_2">Half Marathon</label>
+                <input type="radio" name="race" id="race_2">
+        </div>
+        <div class="race_3"_>
+            <label for="race_3">MARATHON!!!</label>
+                <input type="radio" name="race" id="race_3">
+        </div>
+        <div class="email">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="John@smith.com" required>
+        </div>
+        <div class="pass">
+            <label for="pass">Password:</label>
+            <input type="password" name="pass" id="pass" placeholder="Password" required>
+        </div>
+        <div class="age"> 
+            <label for="age">Age group:</label>
+                <select name="age" id="age">
+                    <option value="18">Below 18</option>
+                    <option value="19">18-49</option>
+                    <option value="50">50+</option>
+                </select>
+        </div>
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
