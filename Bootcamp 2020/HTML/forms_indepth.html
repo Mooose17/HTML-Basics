@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    <h1>HTML FORMS</h1>
+    <ul>
+        <li>The form element represents a document section containing interactive controls for submitting information.</li>
+        <li>The action atribute specifies WHERE the form data should be sent.</li>
+        <li>The method attribute specifies which HTTP method should be used.</li>
+        <li>form = container/wrapping element for data</li>
+    </ul>
+
+    <h2>Useful Links</h2>
+    <li>Input types: <a href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input">"MDN Input Types"</a></li>
+    <li>Label: <a href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label">"MDN Input Label"</a></li>
+    <li>Button: <a href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button"></a>"MDN Button Element"</a></li>
+    <li>Select <a href = "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select">Input-Select</a></li>
+    <li>Input attribute: name="abc" is for sending form data via HTTP requests</li>
+    <li>Attribute: Range - <a href ="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range">input type="range"</a></li>
+    <!-- input id = label for -->
+    <!-- <input type="text" name="" id=""> -->
+<hr>
+<h2> FORMS DEMO </h2> 
+<form action="/Form">
+<div>
+    <label for="username">Please enter username:</label>
+    <input type="text" placeholder="Username" id="username" name="username" required>
+</div>
+<div>
+    <label for="password">Please enter your password:</label>
+    <input type="password" placeholder="password" id="password" name="password">
+</div>
+<div>
+    <label for="number">Please enter mobile number:</label>
+    <input type="number" placeholder="enter number" id="number" name="num" min="0" Max="1000000">
+</div>
+<div>
+    <label for="email">Please enter email address:</label>
+    <input type="email" placeholder="Email" id="email" name="email" required>
+</div>
+    <button>Submit</button>
+    <button type="button">im just a button grrr</button>
+    <button type="submit">Ill submit ur form, whats it to ya?</button>
+<hr>
+</form>
+    <button>IM OUTSIDE THE FORM... IM FREE</button>
+    <hr>
+
+    <h3>Hijacking Searches hehe</h3>
+    <form  action="https://www.reddit.com/search/">
+        <label for="query">Reddit:</label>
+        <input type="text" id="query" name="q">
+        <Button>Search Reddit</Button>
+    </form>
+    <form  action="https://www.google.com/search?">
+        <label for="query_g">Google:</label>
+        <input type="text" id="query_g" name="q">
+        <Button>Search Google</Button>
+    </form>
+    <form  action="https://www.youtube.com/results?search_query">
+        <label for="query_y">Youtube:</label>
+        <input type="text" id="query_y" name="q">
+        <Button>Search Youtube</Button>
+    </form>
+<hr>
+<h2>More imputs</h2>
+<form action="/Birds">
+    <input type="checkbox" name="agree_tos" id="agree">
+    <label for="agree">Agree to Terms of service.</label>
+    <br>
+        <label for="l">L:</label>
+        <input type="radio" name="size" id="l" value="Large">
+        <label for="m">M:</label>
+        <input type="radio" name="size" id="m" value="Medium">
+        <label for="s">S:</label>
+        <input type="radio" name="size" id="s" value="Small">
+        <!-- Type = HTML element
+            name = links radio inputs together
+            id = gives radio indivual value
+            value = descripter in HTTP request
+         -->
+    <br>
+<button>Submit</button>
+<label for="text1">
+    <textarea name="text1" id="text1" cols="5" rows="5" placeholder="Add text here" min="1" max="5"></textarea>
+</label>
+<label for="meal">
+    <select name="meal" id="meal">
+        <option value=""selected>--Please select an option--</option>
+        <option value="fish">Fish</option>
+        <option value="steak" >Stake</option>
+        <option value="veg">Vegetarian</option>
+        <option value="Vegan">Vegan</option>
+    </select>
+</label>
+<!-- Slider = input type = range -->
+<label for="cheese">SCHEESE SLIDERZ</label>
+<input type="range" name="cheese" id="id" min="0" max="100" value="50">
+</form>
+
+</body>
+</html>
