@@ -1,0 +1,61 @@
+/* Universal Selector */
+* {
+    background-color: blueviolet;
+}
+/*This would make changes to everything on the page*/
+
+/*Element selector*/
+img {
+    width: 100px;
+    height: 200px;
+}
+/*This would select ALL img html attributes*/
+
+/*Class selector*/
+.age {
+    color:pink;
+    font-size: larger;
+}
+/*This would make anything with a class of .age have the text color pink and
+a font size of larger*/
+
+/*ID selector*/
+#agree {
+    text-decoration: underline blueviolet wavy;
+}
+/*This would make any attribute with and ID of "agree" have a wavy blueviolet underline*/
+
+/*Decentant Selector*/
+li a {
+    color:teal
+}
+/*This would make any "a" tags in a li have the text color teal*/
+
+/*Adjacent Selector*/
+h1 + p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*This selector would make any p that are immidiately followed by a h1 tag have
+a font family of Arial, Helvetica, sans-serif*/
+
+/*Direct Child*/
+div > li {
+    color:cadetblue;
+}
+/*This would make any li which are direct children of the div element
+have a text color of cadetblue*/
+
+/*Atribute selector*/
+input [type="radio"] {
+    background-color: chartreuse;
+    color:cornsilk
+}
+/*This selects all input elements with the attribute type is set to the type of "radio"*/
+
+/*Pseudo classes*/
+.square:nth-of-type(2n){
+    background-color: black;
+}
+/*This would make every 2nd .square class have a background color of black*/
+
+/*Pseudo Elements*/
