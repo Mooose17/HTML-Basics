@@ -3,6 +3,9 @@ img {
     /*margin: 1.6666%;*/
     margin: calc(10%/6);
 }
+img:hover{
+    transform:translateY(-10%);
+}
 nav {
     text-transform: uppercase;
     border-bottom: 2px solid #f1f1f1;
