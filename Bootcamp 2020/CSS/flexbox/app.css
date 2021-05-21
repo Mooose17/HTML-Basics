@@ -21,6 +21,7 @@ h1 {
     height:400px;
     font-size: xx-large;
     flex-basis: 600px;
+    flex-grow:2;
 }
 
 
